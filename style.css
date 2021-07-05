@@ -1,13 +1,23 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
   margin: 0;
   padding: 0;
+  
+  
 }
 .my-nav{
-  height: 12vh;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 10vh;
   display: flex;
   background-color: #383838;
   align-items: center;
   justify-content: space-around;
+  font-family: 'Roboto Mono', monospace;
+  /* overflow: hidden; */
 }
 
 .nav-items li{
@@ -15,6 +25,7 @@ body{
   display: inline-block;
   margin: auto 0;
   padding-bottom:10px ;
+  transition: 0.5s;
 }
 .nav-items li a{
   text-decoration: none;
@@ -25,7 +36,108 @@ body{
 }
 .my-nav .logo{
   height: 40px;
+  cursor: pointer;
+  transition: 0.5s;
 }
-.my-nav .nav-items li:hover a{
-  color:orange; 
+.my-nav .logo:hover{
+  transform: scale(1.1);
+}
+
+.my-nav .nav-items li:hover a,li{
+  color:#fa6a42; 
+  
+}
+.my-nav .nav-items li:hover{
+  transform: scale(1.1);
+  transform: translateY(5px);
+  
+}
+
+#home{
+  height: 90vh;
+  background-image: url("./images/top-banner.png");
+  background-repeat: no-repeat;
+  /* overflow: hidden; */
+  background-color: rgba(3, 3, 3, 0.74);
+  background-blend-mode:overlay ;
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+  padding:10vh 0px ;
+}
+
+h1{
+  font-size: 55px;
+
+  
+}
+h3{
+  font-size: 1.4rem;
+  font-family: 'roboto', sans-serif;
+}
+p{
+  font-size: 1.10rem;
+  font-family: 'roboto', sans-serif;
+}
+.h1-1{
+  margin-bottom: 0px;
+}
+.color-h1{
+  margin-top:0px;
+  font-size: 54px;
+}
+h3{
+  font-style: italic;
+}
+.color-orange{
+  color: #fa6a42;
+}
+.flex-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.helf-width{
+  width: 40%;
+}
+.main-img img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: 0.5s;
+  /* overflow: hidden; */
+
+}
+.main-img img:hover{
+  /* transform: translateX(-5px); */
+  /* transform: scale(1.01); */
+}
+
+.btn{
+  color: #ffffff;
+  background-image:linear-gradient(to left bottom, #f8704a,#e48110);
+  text-decoration: none;
+  padding:8px 30px;
+  border-radius: 3px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  position: absolute;
+  transition: 0.5s;
+
+}
+
+.btn:hover{
+  background-image:linear-gradient(to right, #f8704a,#e48110);
+  transform: scale(1.1);
+}
+
+#dream{
+  padding: 10vh 0px;
+  height: 90vh;
+  background-image: url("./images"); 
+  background-repeat: no-repeat;
+  /* overflow: hidden; */
+  background-color: #383841;
+  background-blend-mode:overlay ;
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
 }
