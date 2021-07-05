@@ -70,6 +70,13 @@ h1{
 
   
 }
+h2{
+  font-size: 2rem;
+}
+h4{
+  font-size: 1.1rem;
+  font-weight: normal;
+}
 h3{
   font-size: 1.4rem;
   font-family: 'roboto', sans-serif;
@@ -140,4 +147,55 @@ h3{
   background-blend-mode:overlay ;
   font-family: 'Oswald', sans-serif;
   color: #ffffff;
+}
+#experience{
+  padding: 10vh 0px;
+  height: 100vh;
+  background-image: url("./images"); 
+  background-repeat: no-repeat;
+  /* overflow: hidden; */
+  background-color: rgba(3, 3, 3, 0.74);
+  background-blend-mode:overlay ;
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+}
+#experience h1{
+  text-align: center;
+  margin: 0 auto 10vh auto;
+  width: 21vw;
+  padding-bottom: 3px;
+  border-bottom: 4px solid #f8704a;
+}
+.card p{
+  color:#363636;
+}
+.card h4{
+  color:#000000;
+  border-bottom: 4px solid #f8704a;
+  padding-bottom: 10px;
+}
+.card{
+  background-color: #ffffff;
+  color:#292b2c;
+  /* text-align: center; */
+  padding: 0px 40px;
+  height: 60vh;
+  width: 35%;
+  transition: 0.5s;
+  border-radius: 3px;
+  box-shadow: 5px 5px 30px 5px rgb(3, 3, 3);
+}
+.card:hover{
+  /* transform: scale(1.03); */
+  transform: translateY(10px);
+}
+.card-1{
+  border-left: 8px solid;
+  border-image:linear-gradient(to top, #f8704a, #e2de02, #f8704a) ;
+  border-image-slice: 1;
+}
+.card-2{
+  border-left: 8px solid;
+  border-image:linear-gradient(to top, #b3a103,rgb(214, 116, 3), #a79603) ;
+  border-image-slice: 1;
 }
