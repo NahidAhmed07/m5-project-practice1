@@ -83,7 +83,7 @@ h3{
 }
 p{
   font-size: 1.10rem;
-  font-family: 'roboto', sans-serif;
+  font-family: 'roboto Mono', sans-serif;
 }
 .h1-1{
   margin-bottom: 0px;
@@ -168,6 +168,8 @@ h3{
 }
 .card p{
   color:#363636;
+  
+  font-family: 'roboto', sans-serif;
 }
 .card h4{
   color:#000000;
@@ -191,12 +193,12 @@ h3{
 }
 .card-1{
   border-left: 8px solid;
-  border-image:linear-gradient(to top, #f8704a, #e2de02, #f8704a) ;
+  border-image:linear-gradient(to top, #f8704a, #fd4c1b) ;
   border-image-slice: 1;
 }
 .card-2{
   border-left: 8px solid;
-  border-image:linear-gradient(to top, #b3a103,rgb(214, 116, 3), #a79603) ;
+  border-image:linear-gradient(to top,rgb(214, 116, 3),#fd4c1b) ;
   border-image-slice: 1;
 }
 
