@@ -273,4 +273,74 @@ h3{
   color: #2e2d2d;
   display: flex;
   justify-content: space-evenly;
+
+}
+
+#contact{
+  padding: 10vh 0px;
+  height: 100vh;
+  background-color: #444444;
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+  font-family: 'Roboto Mono', monospace;
+}
+#contact h1{
+  text-align: center;
+  margin: 0 auto 10vh auto;
+  width: 27vw;
+  padding-bottom: 3px;
+  border-bottom: 4px solid #f8704a;
+}
+.form{
+  width: 50%;
+  /* border: 1px solid ; */
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 7px 10px;
+  /* border-radius: 5px; */
+  border: none;
+  margin: 10px 0;
+  font-size: 1rem;
+  /* border: 1px solid #ccc; */
+}
+input:focus{
+  outline: 3px solid #f8704a ;
+}
+textarea:focus{
+  outline: 3px solid #f8704a ;
+  /* border-radius: 5px; */
+}
+.btn-form{
+  width: 103%;
+  padding: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: 'Roboto Mono', monospace;
+  border-radius: 5px;
+  border: none;
+  transition: 0.5s;
+  
+}
+.btn-form:hover{
+  background-color: #e48110;
+  color: #ffffff;
+}
+
+footer{
+  height: 15vh;
+  background-color: #383841;
+  color: #ffffff;
+  margin: 0vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+footer p{
+  margin: 0;
 }
